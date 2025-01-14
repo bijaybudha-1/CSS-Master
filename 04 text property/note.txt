@@ -1,0 +1,39 @@
+----> Text property
+--> text-align
+- text-align: left or start;
+- text-align: right or end;
+- text-align: center;
+- text-align: justify;
+
+
+--> text decoration
+- text-decoration-line: underline, overline, throughline, none etc.
+- text-decoration-style: solid, wavy, double, dotted, dashed, none
+- text decoration-color: red etc.
+- text-decoration-thickness: 5px etc.
+--> shorthand: text-decoration: underline, overline, throughline
+
+
+--> text transform
+- text-transform: uppercase;
+- text-transform: lowercase;
+- text-transform: capitalize;
+- text-transform: none;
+
+--> text shadow
+- text-shadow: x-offset, y-offset, blur, color;
+text-shadow: 5px 5px 10px black;
+
+
+----> text spacing
+--> letter spacing
+- letter-spacing: 5px;
+
+--> word spacing
+- word-spacing: 5px;
+- white-space: nowrap;
+
+--> line height
+// most used
+- line-height: 1.5;
+- line-height: 1.56; 
