@@ -1,0 +1,28 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap'); */
+
+/* 
+--> We can used the two ways google font with is html and css file which you want.
+*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: "Slabo 27px", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 44px;
+    font-variant: small-caps;
+  }
+
+p {
+    font-family: "Slabo 27px", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    font-style: italic;
+    
+}
+  
