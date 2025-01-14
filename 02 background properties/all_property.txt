@@ -1,0 +1,9 @@
+----> CSS Background Properties
+--> At least you know that background properties.
+
+- Background-color:
+- Background-image:
+- Background-repeat:
+- Background-position:
+- Background-size:
+- Background-attachment:
