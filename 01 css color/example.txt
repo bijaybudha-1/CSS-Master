@@ -1,0 +1,11 @@
+----> Color property
+# we can declare color in different ways
+--> color insert by color name or hexadecimal (hash code)
+- color: red;
+- color: #ff0000
+
+--> color insert the property of rgb (red, green, blue)
+- color: rgb(255, 0, 0);
+
+--> color insert the property of rgba (red, green, blue, alpha). the value range of apha (0 to 1)
+- color: rgba(255, 0, 0, 0.5)  // 
