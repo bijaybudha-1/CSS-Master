@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    background-color: #f8f8ff;
+
+}
+.normal-box {
+    height: 150px;
+    width: 100%;
+    background-color: cadetblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+h1 {
+    padding: 20px 0;
+}
+
+/* Normal or Default box */
+.normal-box .box1 {
+    background-color: brown;
+    height: 100px;
+    width: 100px;
+}
+.normal-box .box2 {
+    background-color: lightseagreen;
+    height: 100px;
+    width: 100px;
+}
+.normal-box .box3 {
+    background-color: tomato;
+    height: 100px;
+    width: 100px;
+}
+.normal-box .box4 {
+    background-color: cornflowerblue;
+    height: 100px;
+    width: 100px;
+}
+
+/* Applying margin all side */
+
+.included-border {
+    height: 150px;
+    width: 100%;
+    background-color: wheat;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.included-border .box1 {
+    border: 5px solid #000000;
+    height: 100px;
+    width: 100px;
+    background-color: brown;
+}
+.included-border .box2 {
+    border: 5px dashed rebeccapurple;
+    height: 100px;
+    width: 100px;
+    background-color: lightseagreen;
+}
+.included-border .box3 {
+    border: 5px dotted white;
+    padding: 20px;
+    height: 100px;
+    width: 100px;
+    background-color: tomato;
+}
+.included-border .box4 {
+    border: 5px groove yellow;
+    padding: 20px;
+    height: 100px;
+    width: 100px;
+    background-color: cornflowerblue;
+}
+.included-border .box5 {
+    border: 10px double #f8f8ff;
+    padding: 20px;
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+}
+.included-border .box6 {
+    border: 5px ridge crimson;
+    padding: 20px;
+    height: 100px;
+    width: 100px;
+    background-color: cadetblue;
+}
+
+/* margin one by one each side */
+
+.each-side-border {
+    height: 150px;
+    width: 100%;
+    background-color: wheat;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.each-side-border .box1 {
+    height: 100px;
+    width: 100px;
+    background-color: brown;
+    border-top: 10px solid rebeccapurple;
+    
+}
+.each-side-border .box2 {
+    height: 100px;
+    width: 100px;
+    background-color: lightseagreen;
+    border-bottom: 10px dashed yellow;
+}
+.each-side-border .box3 {
+    height: 100px;
+    width: 100px;
+    background-color: tomato;
+    border-left: 10px double green;
+}
+.each-side-border .box4 {
+    height: 100px;
+    width: 100px;
+    background-color: brown;
+    border-right: 10px groove white;
+}
+
+

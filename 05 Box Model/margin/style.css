@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    background-color: #f8f8ff;
+}
+.normal-box {
+    height: 150px;
+    width: 100%;
+    background-color: cadetblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+h1 {
+    padding: 20px 0;
+}
+
+/* Normal or Default box */
+.normal-box .box1 {
+    background-color: brown;
+    height: 100px;
+    width: 100px;
+}
+.normal-box .box2 {
+    background-color: lightseagreen;
+    height: 100px;
+    width: 100px;
+}
+.normal-box .box3 {
+    background-color: tomato;
+    height: 100px;
+    width: 100px;
+}
+.normal-box .box4 {
+    background-color: cornflowerblue;
+    height: 100px;
+    width: 100px;
+}
+
+/* Applying margin all side */
+
+.included-margin {
+    height: 150px;
+    width: 100%;
+    background-color: wheat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.included-margin .box1 {
+    margin: 10px;
+    height: 100px;
+    width: 100px;
+    background-color: brown;
+}
+.included-margin .box2 {
+    margin: 10px;
+    height: 100px;
+    width: 100px;
+    background-color: lightseagreen;
+}
+.included-margin .box3 {
+    margin: 10px;
+    height: 100px;
+    width: 100px;
+    background-color: tomato;
+}
+.included-margin .box4 {
+    margin: 10px;
+    height: 100px;
+    width: 100px;
+    background-color: cornflowerblue;
+}
+
+/* margin one by one each side */
+
+.each-side-margin {
+    height: 150px;
+    width: 100%;
+    background-color: wheat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.each-side-margin .box1 {
+    margin: 10px;
+    height: 100px;
+    width: 100px;
+    background-color: brown;
+}
+.each-side-margin .box2 {
+    margin: 10px;
+    height: 100px;
+    width: 100px;
+    background-color: lightseagreen;
+}
+.each-side-margin .box3 {
+    margin: 10px;
+    height: 100px;
+    width: 100px;
+    background-color: tomato;
+}
+.each-side-margin .box4 {
+    margin: 10px;
+    height: 100px;
+    width: 100px;
+    background-color: cornflowerblue;
+}
+
+.each-side-margin .box1:hover {
+    margin-top: 50px;
+    transition: ease-in-out 1s;
+    content: 'margin top';
+}
+.each-side-margin .box2:hover {
+    margin-right: 50px;
+    transition: ease-in-out 1s;
+    content: 'margin top';
+}
+.each-side-margin .box3:hover {
+    margin-bottom: 50px;
+    transition: ease-in-out 1s;
+    content: 'margin top';
+}
+.each-side-margin .box4:hover {
+    margin-left: 50px;
+    transition: ease-in-out 1s;
+    content: 'margin top';
+}
