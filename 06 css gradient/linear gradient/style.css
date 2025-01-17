@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.outer-container {
+    width: 100%;
+    height: 100vh;
+    background-color: cornflowerblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+p {
+    text-align: center;
+    margin: 40px ;
+}
+.section1 {
+    width: 300px;
+    height: 300px;
+    background: linear-gradient(red, blue);
+}
+.section2 {
+    width: 300px;
+    height: 300px;
+    background: linear-gradient(to right,red, yellow);
+}
+.section3 {
+    width: 300px;
+    height: 300px;
+    background: linear-gradient(35deg,purple, orange);
+}
+.section4 {
+    width: 300px;
+    height: 300px;
+    background: linear-gradient(to right bottom,green, tomato);
+}
+.section5 {
+    width: 300px;
+    height: 300px;
+    background: repeating-linear-gradient(to right top, #023047, #219ebc, #8ecae6 45px);
+}
+.section6 {
+    width: 300px;
+    height: 300px;
+    background: repeating-linear-gradient(90deg,#ffc2d1, #ffb3c6, #ffd60a, #fb6f92 25px);
+}
+.section7 {
+    width: 300px;
+    height: 300px;
+    background: repeating-linear-gradient(180deg,green, tomato, red, yellow, blue 45px);
+}
+.section8 {
+    width: 300px;
+    height: 300px;
+    background: repeating-linear-gradient(45deg,green, tomato 95px);
+}
+
+.image-gradinet {
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(to right top, rgba(63, 55, 201, 0.3), rgba(255, 238, 221, 0.3)), url("https://images.pexels.com/photos/18683300/pexels-photo-18683300/free-photo-of-an-owl-perched-on-a-branch-in-the-dark.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
