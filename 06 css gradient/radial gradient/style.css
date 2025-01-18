@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.section1 {
+    margin: 20px;
+    height: 800px;
+    width: 100%;
+    background: radial-gradient(red, yellow, purple);
+}
+.section2 {
+    margin: 20px;
+    height: 800px;
+    width: 100%;
+    background: radial-gradient(circle,red, yellow, green);
+}
+.section3 {
+    margin: 20px;
+    height: 800px;
+    width: 100%;
+    background: radial-gradient(circle, red 20%, yellow 10%, grey 40%);
+}
+.section4 {
+    margin: 20px;
+    height: 800px;
+    width: 100%;
+    background: repeating-radial-gradient(circle at center,red, yellow 30%, blue 50px);
+}
