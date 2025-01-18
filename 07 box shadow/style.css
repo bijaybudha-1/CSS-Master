@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100Vh;
+    width: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.section1 {
+    height: 250px;
+    width: 250px;
+    background-color: brown;
+    box-shadow: 10px 10px 5px 10px blue;
+}
+
+.img-section {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 50px;
+}
+
+.box-shadow-img {
+    height: 400px;
+   box-shadow: 20px 20px 20px black;
+}
+img {
+    height: 400px;
+    filter: drop-shadow(20px 20px 20px black);
+}
