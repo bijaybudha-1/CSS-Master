@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 100px;
+    padding: 20px;
+    background-color: thistle;
+}
+
+
+.item-image img {
+    height: 400px;
+    margin: 50px;
+    padding: 20px;
+}
+.item-image p {
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.img1 img{
+    filter: grayscale();
+}
+.img2 img{
+    filter: blur(2px);
+}
+.img3 img{
+    filter: brightness(150%)
+}
+.img4 img{
+    filter: contrast(150%);
+}
+.img5 img{
+    filter: saturate(250%);
+}
+.img6 img{
+    filter: invert();
+}
+.img7 img{
+    filter: hue-rotate(45deg);
+}
+.img8 img{
+    filter: brightness(150%) contrast(150%) saturate(150%);
+}
