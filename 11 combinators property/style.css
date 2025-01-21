@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+color: tomato;
+background-color: whitesmoke;
+padding: 20px;
+}
+
+.container {
+    width: 100%;
+    background-color: whitesmoke;
+    margin: 20px 0;
+}
+
+/* Example of Descendand Comnbinator( ) */
+
+.container .section-item1 {
+    padding: 40px;
+    color: purple;
+    font-size: 32px;
+}
+
+.section-item1 p {
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 1.5;
+    margin-top: 20px;
+}
+
+/* Example of Child Combinator (>)*/
+
+.container > .section-item2 {
+    padding: 40px;
+    color: brown;
+    font-size: 32px;
+}
+
+.section-item2 > p {
+    font-size: 20px;
+    margin-top: 20px;
+    line-height: 1.5;
+}
+
+/* Example of Adjacent Sibling Combinator (+) */
+
+.section2 + .section-item4{
+    padding: 40px;
+    color: blue;
+    font-size: 32px;
+}
+
+.h2-sibling + .p-sibling {
+    font-size: 20px;
+    margin-top: 20px;
+    line-height: 1.5;
+}
+
+/* Example of General Sibling Combinator (+) */
+
+.section3 ~ .section-item5 {
+    padding: 40px;
+    color: darkred;
+    font-size: 32px;
+    list-style-position: inside;
+}
+
+.h2-sibling ~ .p-sibling {
+    font-size: 20px;
+    margin-top: 20px;
+    line-height: 1.5;
+    margin-bottom: 40px;
+}
+
+.h2-sibling ~ h4 {
+    margin-bottom: 20px;
+}
+
+.h2-sibling ~ ol {
+    font-size: 20px;
+    line-height: 1.5;
+}

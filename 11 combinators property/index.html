@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Combinator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Example of Descendand Combinator ( )</h1>
+    <div class="container">
+        <div class="section-item1">
+            <h2>What is computer?</h2>
+            <p>A computer is a device that accepts information (in the form of digitalized data) and manipulates it for some result based on a program, software, or sequence of instructions on how the data is to be processed.</p>
+        </div>
+    </div>
+
+    <h1>Example of Child Combinator (>)</h1>
+    <div class="container">
+        <div class="section-item2">
+            <h2>What is Software?</h2>
+            <p>Software is a set of instructions or programs that tell a computer what to do, how to do it, and when to perform specific tasks to achieve desired results.</p>
+        </div>
+    </div>
+
+    <h1>Example of Adjacent Sibling Combinator (+)</h1>
+    <div class="container">
+        <div class="section2"></div>
+        <div class="section-item4">
+            <h2 class="h2-sibling">What is Hardware?</h2>
+            <p class="p-sibling">Hardware refers to the physical components of a computer system that you can see and touch.</p>
+        </div>
+    </div>
+
+    <h1>Example of General Sibling Combinator (~)</h1>
+    <div class="container">
+        <div class="section3"></div>
+        <div class="section-item5">
+            <h2 class="h2-sibling">What is Server?</h2>
+            <p class="p-sibling">A server is a powerful computer or software program that provides services, resources, or data to other devices (called clients) over a network. It acts as a central hub to process and manage requests from clients.</p>
+            <h4>Types of Servers: </h4>
+            <ol>
+                <li>Web Server: Hosts websites (e.g., Apache, Nginx).</li>
+                <li>File Server: Stores and shares files across a network.</li>
+                <li>Database Server: Manages and provides access to databases (e.g., MySQL, MongoDB).</li>
+                <li>Mail Server: Handles sending and receiving emails.</li>
+                <li>Application Server: Runs specific applications or programs.
+                </li>
+            </ol>
+        </div>
+    </div>
+</body>
+</html>
