@@ -52,5 +52,8 @@
     filter: hue-rotate(45deg);
 }
 .img8 img{
+    filter: opacity(0.5);
+}
+.img9 img{
     filter: brightness(150%) contrast(150%) saturate(150%);
 }
