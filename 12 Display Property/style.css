@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    background-color: thistle;
+    padding: 20px;
+}
+
+.block-elements {
+    margin: 20px;
+    padding: 20px;
+    background-color: darkolivegreen;
+    display: block;
+}
+
+.block-elements h2 {
+    margin:  10px  0;
+    background-color: cornflowerblue;
+    color: aliceblue;
+    padding: 10px;
+    display: block; /* default is block*/
+}
+
+.block-elements p {
+    background-color: crimson;
+    color: aliceblue;
+    padding: 10px;
+    font-size: 20px;
+    display: block; /* default is block*/
+}
+
+/* Change the inline elements to block elements usind display: block property in css. it's treated like a blcok elements but default nature us inline elements */
+.block-elements .span-inline {
+    display: block;
+    padding: 10px;
+    background-color: teal;
+    margin-top: 10px;
+}
+
+.inline-block-elements {
+    background-color: steelblue;
+    padding: 20px;
+    margin: 20px;
+}
+
+.inline-block-elements h2 {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    background-color: thistle;
+    color: maroon;
+}
+
+.inline-block-elements span {
+    display: inline-block;
+    background-color: thistle;
+    color: maroon;
+    font-weight: bold;
+    padding: 10px;
+    margin: 10px;
+}
+
+.inline-block-elements p {
+    display: inline-block;
+    background-color: thistle;
+    color: maroon;
+    font-weight: bold;
+    padding: 10px;
+    margin: 10px;
+}
+
+/* Starting Inline elements styles */
+.inline-elements {
+    background-color: slateblue;
+    margin: 20px;
+    padding: 20px;
+}
+
+/* By default the h2 nature is block elements but we are using a display: inline property of css. which is treated a blcok or any elements as a inline elements */
+.inline-elements h2 {
+    display: inline;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    background-color: palegreen;
+    margin: 10px;
+    color: hotpink;
+}
+
+.inline-elements button {
+    padding: 12px 30px;
+    background-color: azure;
+    color: maroon;
+    font-weight: bolder;
+}
+
+/* display none Styles */
+
+.display-none {
+    background-color: teal;
+    margin: 20px;
+    padding: 20px;
+}
+
+.display-none h2 {
+    margin: 10px;
+    padding: 10px;
+}
+
+.display-none p {
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.display-none .item-block {
+    display: block;
+    background-color: azure;
+    color: tomato;
+}
+.display-none .item-inline {
+    display: inline;
+    background-color: bisque;
+    color: blue;
+}
+
+.display-none .item-inline-block {
+    display: inline-block;
+    background-color: whitesmoke;
+    color: darkred;
+}
+
+/* We are using the display: none property. Which elements class name is item-2, item-6 and item-12.
+that's are elemenst are removed the Display: none container section. */
+.display-none .item-2 {
+    display: none;
+}
+.display-none .item-6 {
+    display: none;
+}
+.display-none .item-10 {
+    display: none;
+}
