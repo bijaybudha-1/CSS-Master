@@ -6,8 +6,13 @@
 
 .container {
     width: 100%;
-    height: 100vh;
+    height: 100%;
     background-color: thistle;
+}
+
+.container h2 {
+    margin-left: 40px;
+    padding: 20px;
 }
 
 .content-1 {
@@ -16,7 +21,7 @@
     margin: 20px;
 }
 
-.item {
+.content-1 .item {
     height: 100px;
     width: 100px;
     background-color: cornflowerblue;
@@ -24,32 +29,69 @@
     position: relative;
 }
 
-.item-1 {
+.content-1 .item-1 {
     top: 0;
     left: 100px;
 }
-.item-2 {
+.content-1 .item-2 {
     position: relative;
     top: 50px;
     left: 300px;
 }
-.item-3 {
+.content-1 .item-3 {
     position: relative;
     top: 50px;
     left: 500px;
 }
-.item-4{
+.content-1 .item-4{
     position: relative;
     top: 100px;
     left: 300px;
 }
-.item-5{
+.content-1 .item-5{
     position: relative;
     top: 100px;
     left: 100px;
 }
-.item-6{
+.content-1 .item-6{
     position: relative;
     bottom: 140px;
     left: 700px;
+}
+
+.content-2 {
+    height: 100vh;
+    background-color: cornflowerblue;
+    margin: 20px;
+}
+
+.content-2 .item {
+        height: 100px;
+        width: 100px;
+        background-color: darkslategray;
+        margin: 20px;
+        position: static;
+        padding: 20px;
+}
+
+/* position static means default vaule. If you are used position static then you cannot apply any property of poitions like: left, right, top, and bottom */
+
+.content-2 .item-1 {
+    top: 40px;
+    left: 100px;
+}
+.content-2 .item-2 {
+    top: 100px;
+    left: 200px;
+    background-color: blue;
+}
+.content-2 .item-3 {
+    bottom: 100px;
+    right: 200px;
+    background-color: maroon;
+}
+.content-2 .item-4 {
+    bottom: 400px;
+    right: 200px;
+    background-color: tomato;
 }
