@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 400px;
+    width: 600px;
+    background-color: cadetblue;
+    position: relative;
+    text-align: center;
+}
+
+.item {
+    height: 100px;
+    width: 100px;
+    background-color: brown;
+    margin: 20px;
+    position: absolute;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.item-2 {
+    z-index: 1;
+}
+
+.item-1 {
+    z-index: 2;
+} 
