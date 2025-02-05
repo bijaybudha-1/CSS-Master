@@ -1,0 +1,28 @@
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+ .container {
+    margin: 5px 50px;
+    padding: 20px;
+    background-color: silver;
+    color: maroon;
+   
+ }
+
+ p {
+    column-count: 3;
+    column-rule-color: red;
+    column-rule-width: 5px;
+    column-rule-style: solid;
+    column-gap: 20px;
+ }
+
+ /* column shorthand */
+
+ p {
+    column-rule: 5px dotted green;
+    column-gap: 40px
+ }
