@@ -87,6 +87,7 @@ div {
 * The element sticks to the top and moves with its parent container's scroll.
 
 # Key Differences:
+```
 |------------||------------------------------------||---------------||-----------------------|
 | Property   ||         Position Reference         || Affects       ||      ScrollBehavior   |
 |            ||                                    || Document Flow ||                       |
@@ -102,3 +103,4 @@ div {
 |Sticky      || Scroll position within the parent  ||Partially      || Moves until it        | 
 |            ||                                    ||               || "sticks."             |
 |------------||------------------------------------|| --------------||-----------------------|
+```
