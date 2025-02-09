@@ -87,16 +87,18 @@ div {
 * The element sticks to the top and moves with its parent container's scroll.
 
 # Key Differences:
-|------------||------------------------------------||---------------||--------------------------|
-| Property   ||         Position Reference         || Affects       ||      Scroll Behavior     |
-|            ||                                    || Document Flow ||                          |
-|------------||------------------------------------||---------------||--------------------------|
-| Relatives  || Itself(normal position)            ||Yes            || Moves with the document. |
-|------------||------------------------------------||---------------||--------------------------|
-|Absolute    || Nearest positioned ancestor        || No            || Moves with the ancestor. |
-|            ||(or `<html>`)                       ||               ||--------------------------|
-|------------||------------------------------------||---------------||--------------------------|
-|Fixed       || Viewport                           ||No             || Does not move (fixed).   |
-|------------||------------------------------------||---------------||--------------------------|
-|Sticky      || Scroll position within the parent  ||Partially      ||Moves until it "sticks."  |
-|------------||------------------------------------|| --------------||--------------------------|
+|------------||------------------------------------||---------------||-----------------------|
+| Property   ||         Position Reference         || Affects       ||      ScrollBehavior   |
+|            ||                                    || Document Flow ||                       |
+|------------||------------------------------------||---------------||-----------------------|
+| Relatives  || Itself(normal position)            ||Yes            || Moves with the        |
+|            ||                                    ||               || document.             |
+|------------||------------------------------------||---------------||-----------------------|
+|Absolute    || Nearest positioned ancestor        || No            || Moves with the        |
+|            || (or `<html>`)                      ||               || ancestor.             |
+|------------||------------------------------------||---------------||-----------------------|
+|Fixed       || Viewport                           ||No             || Does not move (fixed).|
+|------------||------------------------------------||---------------||-----------------------|
+|Sticky      || Scroll position within the parent  ||Partially      || Moves until it        | 
+|            ||                                    ||               || "sticks."             |
+|------------||------------------------------------|| --------------||-----------------------|
