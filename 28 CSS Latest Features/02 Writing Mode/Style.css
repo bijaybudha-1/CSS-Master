@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    background-color: thistle;
+}
+
+.container {
+    & h1 {
+        font-size: 64px;
+        color: blue;
+        background-color: powderblue;
+        writing-mode: horizontal-tb;
+        position: absolute;
+        top: 50%;
+        left: 10%;
+    }
+    & h2 {
+        font-size: 72px;
+        color: slateblue;
+        background-color: yellowgreen;
+        writing-mode: sideways-rl;
+        position: absolute;
+        top: 0;
+        left: 30%;
+        position: absolute;
+        top: 60%;
+        /* writing-mode: sideways-lr; */
+    }
+
+    & h3 {
+        font-size: 72px;
+        color: palegreen;
+        background-color: teal;
+        writing-mode: sideways-lr;
+        position: absolute;
+        top: 20%;
+        left: 50%;
+    }
+    & h4 {
+        font-size: 92px;
+        color: palegreen;
+        background-color: teal;
+        writing-mode: horizontal-tb;
+        position: absolute;
+        top: 5%;
+        left: 15%;
+    }
+}
