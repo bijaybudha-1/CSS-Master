@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    background-color: whitesmoke;
+    flex-direction: column;
+    padding: 50px;
+    text-align: justify;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* .container .about-nepal {
+    font-size: 44px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+} */
+
+/* .container .main-heading {
+    margin: 20px 0;
+    font-weight: bolder;
+    font-size: 32px;
+    background-color: steelblue;
+    color: maroon;
+    padding: 10px;
+} */
+
+/* .container .sub-heading {
+    margin: 20px 0;
+    font-size: 24px;
+    background-color: thistle;
+    color: maroon;
+    padding: 10px;
+} */
+
+/* .container .paragraph {
+    font-size: 24px;
+    background-color: cadetblue;
+    color: maroon;
+    padding: 20px;
+} */
+
+/* Nested Way */
+
+.container {
+    & .about-nepal{
+        font-size: 44px;
+        font-weight: bolder;
+        margin-bottom: 20px;
+    }
+    & .main-heading {
+        margin: 20px 0;
+        font-weight: bolder;
+        font-size: 32px;
+        background-color: steelblue;
+        color: maroon;
+        padding: 10px;
+    }
+    & .sub-heading {
+        margin: 20px 0;
+        font-size: 24px;
+        background-color: thistle;
+        color: maroon;
+        padding: 10px;
+    }
+    & .paragraph {
+        font-size: 24px;
+        background-color: cadetblue;
+        color: maroon;
+        padding: 20px;
+    }
+}
