@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* id selector have higher priority than class and elements selector */
+#id-selector {
+    background-color: slateblue;
+}
+
+/* class selector have less priority than id selector and higher priority than elements selector */
+.class-selector {
+    background-color: tomato;
+    color: white;
+}
+
+/* element selector have a lower priority than id and class selector */
+
+/* when you used any selector  `!important` then your high priority than id, class, and elements selector. And also override the inline css
+
+such as a example:
+h1 {
+    background-color: green !important;
+}
+
+then the apply background green color any situation and any selector
+
+
+*/
+
+h1 {
+    background-color: blue !important;
+    padding: 10px;
+    color: white;
+
+}
+
